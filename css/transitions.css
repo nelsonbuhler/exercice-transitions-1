@@ -1,0 +1,143 @@
+#ex01 .wrapper:hover {
+}
+
+#ex01 .box:hover {
+  background-color: rgb(145, 215, 127);
+}
+
+#ex02 .wrapper:hover {
+}
+
+#ex02 .box {
+  transition: background 0.5s;
+}
+
+#ex02 .box:hover {
+  background-color: rgb(127, 143, 215);
+}
+
+#ex03 .wrapper:hover {
+}
+
+#ex03 .box {
+  transition: background 0.5s 0.2s;
+}
+
+#ex03 .box:hover {
+  background-color: rgb(209, 127, 215);
+}
+
+#ex04 .wrapper:hover {
+}
+
+#ex04 .box {
+  transition: background, color 0.5s 0.2s;
+}
+
+#ex04 .box:hover {
+  background-color: rgb(127, 215, 150);
+  color: rgb(254, 180, 255);
+}
+
+#ex05 .wrapper:nth-child(2) {
+  transition: background, color 0.5s 1s;
+}
+
+#ex05 .box {
+  transition: background, color 0.5s;
+}
+
+#ex05 .box:nth-child(2) {
+  transition: background 0.5s 1s, color 0.5s 1s;
+}
+
+#ex05 .box:hover {
+  background-color: rgb(127, 215, 150);
+  color: rgb(254, 180, 255);
+}
+
+#ex06 .wrapper:hover .box {
+  background-color: rgb(209, 171, 171);
+}
+
+#ex06 .box {
+}
+
+#ex07 .wrapper:hover .box {
+  background-color: rgb(224, 251, 147);
+}
+
+#ex07 .wrapper .box {
+  transition: background 0.5s 0.3s;
+}
+
+#ex07 .wrapper .box:nth-child(2) {
+  transition: background 0.5s 0.6s;
+}
+
+#ex07 .wrapper .box:nth-child(3) {
+  transition: background 0.5s 0.9s;
+}
+
+#ex07 .box {
+}
+
+#ex08 .wrapper:hover {
+  background-color: rgb(75, 79, 193);
+}
+
+#ex08 .wrapper:hover .box {
+  background-color: rgb(184, 185, 214);
+}
+
+#ex08 .box {
+}
+
+#ex09 .wrapper:hover .box {
+  background-color: rgb(182, 184, 228);
+}
+
+#ex09 .wrapper:hover {
+  background-color: rgb(29, 34, 124);
+}
+
+#ex09 .wrapper .box {
+  transition: background 0.5s 0.5s;
+}
+
+#ex09 .wrapper {
+  transition: background 0.5s;
+}
+
+#ex10 .wrapper:hover {
+}
+
+#ex10 .box:hover {
+  transform: translateY(30px);
+}
+
+#ex10 .box {
+  transition: transform 0.5s;
+}
+
+#ex11 .wrapper:hover {
+}
+
+#ex11 .box:hover {
+  transform: rotate(90deg);
+}
+
+#ex11 .box {
+  transition: transform 0.5s;
+}
+
+#ex12 .wrapper:hover {
+}
+
+#ex12 .box:hover {
+  transform: scale(125%);
+}
+
+#ex12 .box {
+  transition: transform 0.5s;
+}
